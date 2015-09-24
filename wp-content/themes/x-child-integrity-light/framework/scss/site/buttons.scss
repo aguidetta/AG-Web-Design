@@ -1,0 +1,23 @@
+// Buttons!
+
+.x-btn {
+	text-transform: uppercase;
+	background-color: $greydark !important;
+	border: none;
+	border-radius: 0 !important;
+	text-shadow: none !important;
+	font-weight:700;
+	transition: background-color 0.25s linear;
+
+		&:hover {
+			text-transform: uppercase;
+			background-color: $redlight !important;
+			border: none;
+			border-radius: 0 !important;
+			text-shadow: none !important;
+		}
+}
+
+.hero-btn-mid {
+	background-color:$greymid!important;
+}

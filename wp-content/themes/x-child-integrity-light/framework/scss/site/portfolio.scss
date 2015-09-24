@@ -1,0 +1,132 @@
+.portfolio-row {
+	background-color:transparent!important;
+	display:block;
+	margin:0 auto 0 auto!important;
+
+	.portfolio-col {
+		background-color:$greylight!important;
+		float:none!important;
+		padding:50px 40px 40px 40px;
+		display:block!important;
+		margin:0 auto 20px auto!important;
+		max-width:800px;
+		-webkit-box-shadow: 16px 17px 0px -6px rgba(135, 135, 135, 0.9);
+		-moz-box-shadow: 16px 17px 0px -6px rgba(135, 135, 135, 0.9);
+		box-shadow: 16px 17px 0px -6px rgba(135, 135, 135, 0.9);
+
+		h2 {
+			margin:5px auto 26px auto;
+		}
+
+		h3 {
+			margin:0 auto 20px auto;
+		}
+
+		.x-btn {
+			display:block;
+			margin: 0 auto;
+			max-width: 300px;
+		}
+	}
+
+}
+
+
+.port-slider-row {
+	width:98%;
+	max-width:800px;
+	display:block;
+	margin:0 auto 20px auto;
+	-webkit-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	-moz-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	background-color:white!important;
+
+	.width {
+		width:88%!important;
+	}
+
+}
+
+.port-script-row {
+	width:98%;
+	max-width:800px;
+	display:block;
+	margin:10px auto;
+	background-color:white!important;
+	padding:40px;
+	-webkit-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	-moz-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+
+	h1 {
+		margin: 20px auto 10px auto!important;
+	}
+
+}
+
+.port-project-section {
+	width:98%;
+	max-width:800px;
+	display:block;
+	margin:10px auto;
+
+	.port-project-header {
+		background-color:$reddark!important;
+		padding:20px!important;
+		-webkit-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	    -moz-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	    box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+		h2 {
+			color:white;
+			text-align:center;
+			margin:0;
+		}
+
+	}
+
+	.port-project-box-row {
+
+		.port-project-box {
+			background-color:white;
+			padding:20px;
+			-webkit-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	    	-moz-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	    	box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+
+			h3 {
+				font-size:225%;
+				margin:0 auto 10px auto;
+			}
+
+		}
+
+	}
+
+}
+
+.port-callout-row {
+	width:98%;
+	max-width:800px;
+	display:block;
+	margin:20px auto 0 auto!important;
+
+	.x-prompt {
+		background-color: $reddark;
+		border-radius:0;
+		border:none;
+		padding:30px;
+		-webkit-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	    -moz-box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+	    box-shadow: 10px 12px 0px -6px rgba(70,70,70,0.5);
+
+	    .h-prompt {
+	    	color:white;
+	    }
+
+	    .p-prompt {
+	    	color:$greylight;
+	    }
+	}
+
+}
